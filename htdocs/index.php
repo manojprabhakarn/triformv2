@@ -14,14 +14,13 @@ include 'libs/load.php';
 <? load_template('nav'); ?>
 
 <body>
-    <!-- hero background page -->
-    <div class="hero-image">
-        <div class="hero-text">
-            <h1>I am John Doe</h1>
-            <p>And I'm a Photographer</p>
-            <button>Hire me</button>
+    <!-- hero page -->
+    <div class="jumbotron text-center">
+        <div class="container">
+            <img src="/htdocs/assets/images/heroimage.jpeg" alt="Hero Image">
         </div>
     </div>
+
 </body>
 
 
