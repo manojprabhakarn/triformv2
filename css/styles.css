@@ -41,16 +41,28 @@ h1 {
   padding: 1.5rem 3rem;
   display: block;
   font-size: 1.4rem;
+  font-weight: 700;
   white-space: nowrap;
+}
+
+.btn--light {
+  color: #000;
+  transition: background 0.15s, color 0.15s;
+}
+
+.btn--light:hover {
+  color: var(--color-secondary);
+  background: var(--color-primary);
 }
 
 .btn--dark {
   border: 3px solid var(--color-secondary);
   color: var(--color-secondary);
-  transition: background 0.2s;
+  transition: background 0.2s, border 0.15s;
 }
 
 .btn--dark:hover {
+  border: 3px solid var(--color-primary);
   background: var(--color-primary);
 }
 
@@ -91,4 +103,22 @@ h1 {
 
 .category .btn {
   margin-bottom: 0;
+}
+
+/* Project Card */
+
+.project .heading {
+  margin-bottom: 0;
+  font-size: 3rem;
+}
+
+.project address {
+  font-style: normal;
+  font-size: 1.4rem;
+  margin-top: 1rem;
+}
+
+.project .description {
+  font-size: 1.4rem;
+  width: 75%;
 }
