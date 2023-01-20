@@ -33,21 +33,20 @@ h1 {
 
 /* Button */
 .btn {
-  padding: 2rem 3rem;
   border: 3px solid var(--color-primary);
   border-radius: 50px;
-  font-weight: 700;
-  font-size: 2rem;
   text-align: center;
-  line-height: 1;
   cursor: pointer;
   text-transform: uppercase;
+  padding: 1.5rem 3rem;
+  display: block;
+  font-size: 1.4rem;
+  white-space: nowrap;
 }
 
 .btn--dark {
-  background: transparent;
+  border: 3px solid var(--color-secondary);
   color: var(--color-secondary);
-  border: 1px solid var(--color-secondary);
   transition: background 0.2s;
 }
 
@@ -56,81 +55,40 @@ h1 {
 }
 
 /* Card */
-.Card {
+.card {
   border-radius: 7px;
   box-shadow: 0 0 20px 10px #f3f3f3;
   overflow: hidden;
 }
 
-.Card--Dark {
-  background: #333333;
-  box-shadow: 0 0 20px 10px rgb(32, 32, 32);
-  color: var(--color-secondary);
-}
-
-.Card__header,
-.Card__body {
-  padding: 2rem 3rem;
-}
-
-/* Project Card */
-.ProjectCard__DataWrapper {
-  padding: 1rem 2rem;
-  margin: 0.5rem 0;
-  font-size: 1.6rem;
-  font-weight: 300;
-  line-height: 2.4rem;
-}
-
-.ProjectCard__Client {
-  font-size: 2rem;
-  font-weight: bold;
-  line-height: 2.4rem;
-}
-
-.ProjectCard__Location address {
-  font-style: normal;
-}
-
-.ProjectCard__Photo img {
-  max-width: 100%;
-  max-height: auto;
-  line-height: 0;
-}
-
-/* Project Category */
-
-.ProjectCategory .Card__Photo img {
+.card__photo img {
   width: 100%;
+  object-fit: cover;
 }
 
-.ProjectCategory .Card__Body {
-  font-size: 2rem;
-  font-weight: 300;
-  line-height: 2;
+.card__body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
 }
 
-.ProjectCategory .Card__Body {
-  font-size: 1.4rem;
+.card__body .heading {
+  font-size: 2.4rem;
 }
 
-.Category__Heading {
-  margin: 1rem 0;
-}
-
-.ProjectCategory .btn {
+.card__body .btn {
+  width: 60%;
   margin-bottom: 3rem;
 }
 
-/* Property List Grid */
+/* Category card */
+.category .container {
+  padding: 3rem;
+  background: rgb(52, 52, 52);
+  color: var(--color-secondary);
+}
 
-.ProjectList {
-  display: grid;
-  padding: 2rem 2rem;
-  grid-template-rows: 1fr;
-  grid-template-columns: 300px;
-  gap: 1.2rem;
+.category .btn {
+  margin-bottom: 0;
 }
