@@ -122,3 +122,14 @@ h1 {
   font-size: 1.4rem;
   width: 75%;
 }
+
+/* Blocks */
+
+.block {
+  padding: 6rem 2rem;
+}
+
+.block--dark {
+  background: var(--color-primary);
+  color: var(--color-secondary);
+}
