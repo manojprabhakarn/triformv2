@@ -130,7 +130,7 @@ ul {
 
 .card__body .heading {
   color: var(--color-primary);
-  margin: 0;
+  margin: 1rem 0 0.6rem 0;
 }
 
 .card__body .btn {
@@ -161,6 +161,9 @@ ul {
 }
 
 /* Project Card */
+.project.card {
+  transition: scale 0.15s;
+}
 
 .project .heading {
   margin-bottom: 0;
@@ -176,6 +179,10 @@ ul {
 .project .description {
   font-size: 1.4rem;
   width: 75%;
+}
+
+.project.card:hover {
+  scale: 1.1;
 }
 
 /* Grid */
@@ -207,6 +214,11 @@ ul {
   padding: 6rem 2rem;
 }
 
+.block__heading {
+  text-align: center;
+  margin: 0 0 4rem 0;
+}
+
 .block--dark {
   background: #000;
   color: var(--color-secondary);
@@ -227,7 +239,7 @@ ul {
   padding: 0;
 }
 
-.project .block__header {
+.block__header.image {
   background-image: linear-gradient(
       0deg,
       rgba(0, 0, 0, 0.3),
@@ -236,7 +248,7 @@ ul {
     url(/images/background-picture0.jpg);
   background-size: cover;
   background-position: 50% 50%;
-  height: 10rem;
+  height: 13rem;
   display: flex;
   margin-bottom: 10px;
   justify-content: center;
@@ -266,11 +278,21 @@ ul {
   }
 }
 
-/* Media Object */
+/* Project Detail */
+.project-detail.block {
+  padding: 0;
+}
 
+.project-detail .block__heading {
+  text-align: center;
+  margin: 0;
+}
+
+/* Media Object */
 .media-object .media__photo img {
   max-width: 100%;
   max-height: 100%;
+  border-radius: 7px;
 }
 
 .data-table {
@@ -280,9 +302,52 @@ ul {
   font-size: 1.6rem;
   max-width: 100%;
   margin-top: 2rem;
-  border-spacing: 0 1.2rem;
+  border-spacing: 1.2rem 1.2rem;
 }
 
 .data-table .detail {
   line-height: 1.2;
+}
+
+@media screen and (min-width: 786px) {
+  .media-object {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    max-width: 80%;
+    margin: 0 auto;
+  }
+
+  .media__data {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .data-table {
+    margin: 0;
+    grid-column: 1;
+    font-size: 2rem;
+  }
+  .data-table {
+    grid-column: 2;
+  }
+}
+
+/* Photo Gallery */
+.photo-gallery .photo__heading {
+  color: var(--color-secondary);
+  text-align: center;
+}
+
+.photo-gallery img {
+  border-top: 3px solid var(--color-body);
+  padding-top: 1rem;
+  max-width: 80%;
+  max-height: 100%;
+}
+
+.photo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
