@@ -129,7 +129,7 @@ ul {
 }
 
 .card__body .heading {
-  color: var(--color-primary);
+  color: var(--color-secondary);
   margin: 1rem 0 0.6rem 0;
 }
 
@@ -158,6 +158,12 @@ ul {
 
 .category.card:hover {
   scale: 1.1;
+}
+
+@media screen and (min-width: 786px) {
+  .grid--1x3 {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 /* Project Card */
