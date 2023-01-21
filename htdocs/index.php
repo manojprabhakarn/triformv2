@@ -15,7 +15,7 @@ include 'libs/load.php';
 
 <body>
     <!-- hero page -->
-    <div class="jumbotron text-center">
+    <div class="jumbotron text-center" style="margin-top: -85px;">
         <img>
     </div>
 
