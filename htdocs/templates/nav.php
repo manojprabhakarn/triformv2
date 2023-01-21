@@ -1,26 +1,51 @@
 <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
-        <div class="container  px-4 px-lg-5">
-            <a class="navbar-brand" href="#"> <img src="/htdocs/assets/brand/logowhite.png"></img></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link " href="#" onclick='loadhtml("template","blog.html")'>Blog</a>
-                    </li>
-                </ul>
-                <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-            </div>
+    <div class="container  px-4 px-lg-5">
+        <!-- logo -->
+        <a class="navbar-brand" href="#"> <img src="/htdocs/assets/brand/logowhite.png" height="30px" width="30px"></img></a>
+
+        <!-- main nav items -->
+        <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample08">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#">Contact</a>
+                </li>
+
+            </ul>
         </div>
-    </nav>
+
+        <!-- socical media icons right side-->>
+        <div class="d-flex align-items-right">
+
+            <!-- Icons -->
+            <a class="text-reset me-3" href="#">
+                <i class="fa-brands fa-facebook text-primary"></i>
+            </a>
+            <a class="text-reset me-3" href="#">
+                <i class="fa-brands fa-instagram text-primary"></i>
+            </a>
+            <a class="text-reset me-3" href="#">
+                <i class="fa-brands fa-linkedin text-primary"></i>
+            </a>
+
+
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+
+</nav>
