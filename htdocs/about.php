@@ -9,20 +9,17 @@ include 'libs/load.php';
 <!-- header -->
 <? load_template('header'); ?>
 
-
 <!-- Navbar -->
 <? load_template('nav'); ?>
 
-<body>
-    <!-- hero page -->
-    <div class="jumbotron text-center" style="margin-top: -85px;">
-        
+<body class="bg-black text-white">
+    <div class="container text-center">
+        <h1 class="p-5">Meet The Team
+            Our Professionals</h1>
     </div>
-    
+
 
 </body>
-
-
 
 <!-- footer -->
 <? load_template('footer'); ?>

@@ -3,13 +3,7 @@
 .jumbotron {
   background-image: url("/htdocs/assets/images/heroimage.jpeg");
   background-size: cover;
-  height: 500px;
-}
-
-.jumbotron {
-  background-image: url("path/to/image.jpg");
-  background-size: cover;
-  height: 500px;
+  height: 600px;
   min-height: 100vh;
 }
 
@@ -19,8 +13,33 @@
   height: 100%;
 }
 
-@media (max-width: 1080px) {
+@media (max-width: 768px) {
   .jumbotron {
     height: 300px;
   }
+}
+hr {
+  border-top: 1px solid #000;
+  width: 50%;
+}
+
+a {
+  color: #000;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+#contact2 {
+  letter-spacing: 3px;
+}
+
+.fontwhite {
+  color: white !important;
+}
+
+#author a {
+  color: #fff;
+  text-decoration: none;
 }/*# sourceMappingURL=main.css.map */
