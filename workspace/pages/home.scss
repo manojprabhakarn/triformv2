@@ -1,13 +1,7 @@
 .jumbotron {
     background-image: url('/htdocs/assets/images/heroimage.jpeg');
     background-size: cover;
-    height: 500px;
-}
-
-.jumbotron {
-    background-image: url('path/to/image.jpg');
-    background-size: cover;
-    height: 500px;
+    height: 600px;
     min-height: 100vh;
 }
 
@@ -17,7 +11,7 @@
     height: 100%;
 }
 
-@media (max-width: 1080px) {
+@media (max-width: 768px) {
     .jumbotron {
         height: 300px;
     }

@@ -22,7 +22,7 @@
             </ul>
         </div>
 
-        <!-- socical media icons right side-->>
+        <!-- socical media icons right side-->
         <div class="d-flex align-items-right">
 
             <!-- Icons -->
@@ -41,11 +41,6 @@
 
 
     </div>
-
-
-
-
-
 
 
 </nav>

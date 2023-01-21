@@ -16,9 +16,7 @@ include 'libs/load.php';
 <body>
     <!-- hero page -->
     <div class="jumbotron text-center">
-        <div class="container">
-            <img src="/htdocs/assets/images/heroimage.jpeg" alt="Hero Image">
-        </div>
+        <img>
     </div>
 
 </body>
