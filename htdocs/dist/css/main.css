@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,400;0,700;1,500;1,600&display=swap");
+.img-w {
+  width: 200px;
+  height: 200px;
+}
+
 .jumbotron {
   background-image: url("/htdocs/assets/images/heroimage.jpeg");
   background-size: cover;
@@ -37,4 +42,28 @@ a:link {
 #author a {
   color: #fff;
   text-decoration: none;
+}
+
+.sec-bg {
+  background-color: #1a1a1a;
+}
+
+.hero-imgbg {
+  background-image: url("/htdocs/assets/images/heroimage.jpeg");
+  height: 400px;
+  margin-top: -100px;
+}
+
+.hero-ctn {
+  margin-top: -170px;
+}
+
+.h1-fnt {
+  font-size: 4rem;
+}
+
+.brand-secname {
+  font-weight: 300;
+  color: #db545a !important;
+  letter-spacing: 2px;
 }/*# sourceMappingURL=main.css.map */

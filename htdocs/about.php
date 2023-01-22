@@ -21,47 +21,52 @@ include 'libs/load.php';
 
     <!-- Team Details-->
 
-    <div class="container text-white" style="background-color: #1a1a1a;">
-        <div class="container " style="text-align: center;">
-            <div class="row">
-                <div class="col-6">
-                    <div class="p-2">
-                        <img src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp" class="rounded-circle" style="width: 200px;" alt="Avatar" />
-                    </div>
-                    <h3>Architect Name</h3>
-                    <strong>Position</strong>
-                    <p>(Branch)</p>
+    <div class="container  sec-bg" style="text-align: center;" width=200>
+        <div class="row  justify-content-md-center">
+            <div class="p-4 col-4">
+                <div class="p-3">
+                    <img  src="/htdocs/assets/people/AR.AATHAVANTT.jpg" class="rounded-circle img-w" alt="Avatar" />
                 </div>
-                <div class="col-6">
-                    <div class="p-2">
-                        <img src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp" class="rounded-circle" style="width: 200px;" alt="Avatar" />
-                    </div>
-                    <h3>Architect Name</h3>
-                    <strong>Position</strong>
-                    <p>(Branch)</p>
+                <h3>AR.AATHAVAN TT</h3>
+                <h6>Chief Architect <span class="badge bg-primary">Founder</span></h6>
+                <p>(Madurai Branch)</p>
+            </div>
+            <div class="p-4 col-4">
+                <div class="p-3">
+                    <img src="/htdocs/assets/people/AR.PRAKASHS.jpg" class="rounded-circle img-w" alt="Avatar" />
                 </div>
-                <div class="col-6">
-                    <div class="p-2">
-                        <img src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp" class="rounded-circle" style="width: 200px;" alt="Avatar" />
-                    </div>
-                    <h3>Architect Name</h3>
-                    <strong>Position</strong>
-                    <p>(Branch)</p>
+                <h3>Ar.PRAKASH S</h3>
+                <h6>Chief Architect <span class="badge bg-primary">CEO</span></h6>
+                <p>(Salem Branch)</p>
+            </div>
+            
+            <hr>
+            <div class="p-4 col-4">
+                <div class="p-3">
+                    <img src="/htdocs/assets/people/AR.VENKATESHV.jpg" class="rounded-circle img-w" alt="Avatar" />
                 </div>
-                <div class="col-6">
-                    <div class="p-2">
-                        <img src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp" class="rounded-circle" style="width: 200px;" alt="Avatar" />
-                    </div>
-                    <h3>Architect Name</h3>
-                    <strong>Position</strong>
-                    <p>(Branch)</p>
-                </div>
+                <h3>Ar.VENKATESH V</h3>
 
+                <h6>Junior Architect</h6>
+                <p>(Madurai Branch)</p>
 
             </div>
-        </div>
-    </div>
+            <div class="p-4 col-4">
+                <div class="p-3">
+                    <img src="/htdocs/assets/people/AR.RAVEENARAMASAMY.jpg" class="rounded-circle img-w" alt="Avatar" />
+                </div>
+                <h3>Ar.RAVEENA</h3>
+                <h6>Junior Architect</h6>
+                <p>(Madurai Branch)</p>
 
+            </div>
+
+
+        </div>
+
+    </div>
+    <br>
+    <br>
 </body>
 
 <!-- footer -->

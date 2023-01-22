@@ -9,11 +9,31 @@ $color-brand-01: rgb(251, 164, 65); // # // Orange
 // sass files
 @import 'pages/about.scss';
 @import 'pages/home.scss';
-@import 'nav.scss';
-@import 'contact.scss';
+@import 'pages/contact.scss';
+
+.sec-bg {
+    background-color: #1a1a1a;
+}
 
 
+.hero-imgbg {
 
+    background-image: url('/htdocs/assets/images/heroimage.jpeg');
+    height: 400px;
+    margin-top: -100px;
 
+}
 
+.hero-ctn{
+    margin-top: -170px;
+}
 
+.h1-fnt{
+    font-size:4rem
+}
+
+.brand-secname{
+    font-weight: 300; 
+    color: #db545a !important; 
+    letter-spacing: 2px;
+}

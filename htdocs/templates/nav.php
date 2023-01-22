@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-dark mb-4" style="background-color: #1a1a1a;">
+<nav class="navbar navbar-expand-lg navbar-dark mb-4 sec-bg">
     <div class="container  px-4 px-lg-5">
         <!-- logo -->
         <a class="navbar-brand" href="#"> <img src="/htdocs/assets/brand/logowhite.png" height="40px" width="40px"></img></a>
@@ -24,19 +24,16 @@
 
         <!-- socical media icons right side-->
         <div class="d-flex align-items-right">
-
             <!-- Icons -->
             <a class="text-reset me-3 fs-3" href="https://www.facebook.com/profile.php?id=100065613322079" target="_blank">
                 <i class="fa-brands fa-facebook text-light"></i>
             </a>
-            <a class="text-reset me-3 fs-3"" href="https://www.instagram.com/triformarchitects/" target="_blank">
+            <a class="text-reset me-3 fs-3"" href=" https://www.instagram.com/triformarchitects/" target="_blank">
                 <i class="fa-brands fa-instagram text-light"></i>
             </a>
-            <a class="text-reset me-3 fs-3"" href="#">
+            <a class="text-reset me-3 fs-3"" href=" #">
                 <i class="fa-brands fa-linkedin text-light"></i>
             </a>
-
-
         </div>
 
 
