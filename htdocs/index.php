@@ -28,11 +28,11 @@ include 'libs/load.php';
     ">
         <div class="d-flex justify-content-center align-items-center h-100">
 
-            <div class="text-black">
+            <div class="text-black" style="margin-top: -170px;">
 
-                <img class="mb-5" src="/htdocs/assets/brand/logoblack.png" style="max-width:20%;" alt="...">
-                <h1 class="mb-3">Triform<span> Architects</span></h1>
-                <p>Design the space not by the look
+                <img class="mb-5" src="/htdocs/assets/brand/logoblack.png" style="max-width:25%;" alt="...">
+                <h2 class="mb-3 fw-bold" style="font-size:4rem" >Triform<span style="font-weight: 300; color: #db545a !important;"> Architects</span></h2>
+                <p>Design the space not by the look<br>
                     Design how it works </p>
             </div>
         </div>

@@ -13,8 +13,8 @@ include 'libs/load.php';
 <!-- Navbar -->
 <? load_template('nav'); ?>
 
-<body>
-  <div class="container" style="background:#1c1c1c">
+<body style="background: #1c1c1c">
+  <div class="container" >
     <h1 class="text-center" style="color:white">Contact Address</h1>
     <hr style="border: 0.5px #818181 solid">
     <div class="row">
@@ -56,7 +56,6 @@ include 'libs/load.php';
     </div>
   </div>
 </body>
-<!-- footer -->
-<? load_template('footer'); ?>
+
 
 </html>

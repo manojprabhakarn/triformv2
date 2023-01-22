@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
+<nav class="navbar navbar-expand-md navbar-dark mb-4" style="background-color: #1a1a1a;">
     <div class="container  px-4 px-lg-5">
         <!-- logo -->
         <a class="navbar-brand" href="#"> <img src="/htdocs/assets/brand/logowhite.png" height="40px" width="40px"></img></a>
