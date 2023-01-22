@@ -31,7 +31,7 @@ include 'libs/load.php';
             <div class="text-black" style="margin-top: -170px;">
 
                 <img class="mb-5" src="/htdocs/assets/brand/logoblack.png" style="max-width:25%;" alt="...">
-                <h2 class="mb-3 fw-bold" style="font-size:4rem" >Triform<span style="font-weight: 300; color: #db545a !important;"> Architects</span></h2>
+                <h2 class="mb-3 fw-bold" style="font-size:4rem" >Triform<span style="font-weight: 300; color: #db545a !important; letter-spacing: -2px;"> Architects</span></h2>
                 <p>Design the space not by the look<br>
                     Design how it works </p>
             </div>
