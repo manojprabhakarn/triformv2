@@ -1,20 +1,55 @@
-hr {border-top: 1px solid #000; width:50%;}
-
-a {color: #000;}
-
-a:link{text-decoration:none;}
-
-#contact2{
-    letter-spacing:3px;
-}
-.fontwhite{
-  color: white !important;
+body {
+  background-color: black;
 }
 
+.font-color {
+  color: white;
+}
 
+.space-m {
+  margin-left: 15px;
+}
 
-#author a{
-  color: #fff;
-  text-decoration: none;
-    
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.sizeicon {
+  font-size: 25px;
+}
+.input-style {
+  border-radius: 0;
+  border-color: #b3b3b3;
+  stroke: #b3b3b3;
+  display: block;
+  width: 100%;
+  padding: 6px 12px;
+  background-image: none;
+  background-clip: padding-box;
+  border: 1px grey solid;
+  border-radius: 3px;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  background-color: transparent;
+  color: inherit;
+  height: auto;
+  border-radius: 0;
+}
+.btn-style {
+  background: blue;
+  border: 1px white solid;
+
+}
+.button-style {
+  height: 35px;
+  width: 200px;
+  color: black;
+  background: #4d94ff;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.button-style:hover {
+  background: #1a75ff;
+  color: white;
 }

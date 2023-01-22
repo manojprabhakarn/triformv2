@@ -20,29 +20,27 @@ include 'libs/load.php';
     </div>
 
     <!-- Team Details-->
-
-    <div class="container  sec-bg" style="text-align: center;" width=200>
-        <div class="row  justify-content-md-center">
-            <div class="p-4 col-4">
-                <div class="p-3">
-                    <img  src="/htdocs/assets/people/AR.AATHAVANTT.jpg" class="rounded-circle img-w" alt="Avatar" />
+<div style="width:80%; margin:auto">
+    <div class="container  sec-bg " style="text-align: center; width:60%"  >
+        <div class="row  justify-content-center">
+            <div class="pt-4 col-6">
+                <div class="pb-3">
+                    <img src="/htdocs/assets/people/AR.AATHAVANTT.jpg" class="rounded-circle img-w" alt="Avatar" />
                 </div>
                 <h3>AR.AATHAVAN TT</h3>
                 <h6>Chief Architect <span class="badge bg-primary">Founder</span></h6>
                 <p>(Madurai Branch)</p>
             </div>
-            <div class="p-4 col-4">
-                <div class="p-3">
+            <div class="pt-4 col-6">
+                <div class="pb-3">
                     <img src="/htdocs/assets/people/AR.PRAKASHS.jpg" class="rounded-circle img-w" alt="Avatar" />
                 </div>
                 <h3>Ar.PRAKASH S</h3>
                 <h6>Chief Architect <span class="badge bg-primary">CEO</span></h6>
                 <p>(Salem Branch)</p>
             </div>
-            
-            <hr>
-            <div class="p-4 col-4">
-                <div class="p-3">
+            <div class="pt-4 col-6">
+                <div class="pb-3">
                     <img src="/htdocs/assets/people/AR.VENKATESHV.jpg" class="rounded-circle img-w" alt="Avatar" />
                 </div>
                 <h3>Ar.VENKATESH V</h3>
@@ -51,8 +49,8 @@ include 'libs/load.php';
                 <p>(Madurai Branch)</p>
 
             </div>
-            <div class="p-4 col-4">
-                <div class="p-3">
+            <div class="pt-4 col-6">
+                <div class="pb-3">
                     <img src="/htdocs/assets/people/AR.RAVEENARAMASAMY.jpg" class="rounded-circle img-w" alt="Avatar" />
                 </div>
                 <h3>Ar.RAVEENA</h3>
@@ -63,6 +61,7 @@ include 'libs/load.php';
 
 
         </div>
+</div>
 
     </div>
     <br>

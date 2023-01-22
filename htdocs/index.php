@@ -24,7 +24,7 @@ include 'libs/load.php';
     <div class="jumbotron text-center bg-image hero-imgbg">
         <div class="d-flex justify-content-center align-items-center h-100">
 
-            <div class="text-blac hero-ctn">
+            <div class="text-black hero-ctn">
 
                 <img class="mb-5" src="/htdocs/assets/brand/logoblack.png" style="max-width:25%;" alt="...">
                 <h2 class="mb-3 fw-bold h1-fnt">Triform<span class="brand-secname"> Architects</span></h2>
