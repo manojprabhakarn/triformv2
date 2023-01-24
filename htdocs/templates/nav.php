@@ -2,7 +2,9 @@
     <div class="container  px-4 px-lg-5">
         <!-- logo -->
         <a class="navbar-brand" href="#"> <img src="/htdocs/assets/brand/logowhite.png" height="40px" width="40px"></img></a>
-
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
         <!-- main nav items -->
         <div class="collapse navbar-collapse justify-content-center align-items-right" id="navbarsExample08">
             <ul class="navbar-nav fs-5 fw-light">
